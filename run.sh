@@ -1,7 +1,8 @@
-content
-# 使用方式
-chmod +x init_advanced.sh
-./init_advanced.sh
+#!/usr/bin/env bash
+set -e
+
+chmod +x init.sh
+./init.sh
 cd daily-leetcode
 
 ./scripts/new_day.sh
